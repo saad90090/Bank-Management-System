@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Fundstransfer</class>
+ <widget class="QDialog" name="Fundstransfer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>487</width>
+    <height>406</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Funds Transfer</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+font-family:cambria;
+}
+QWidget{
+background-color:#34568B;
+}
+QPushButton{
+  background-color: white;
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 10px;
+    color:black;
+    font: bold 14px;
+    min-width: 10em;
+    padding: 6px;
+}
+QLineEdit{
+  background-color: white;
+    border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+     color:black;
+    font: 14px;
+    min-width: 10em;
+    padding: 6px;
+}
+QDateEdit{
+  background-color: white;
+    border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+     color:black;
+    font: 14px;
+    min-width: 10em;
+    padding: 6px;
+}
+QRadioButton{
+ background-color: white;
+    border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+    color:black;
+    font: bold 14px;
+    min-width: 10em;
+    padding: 6px;
+
+}
+QLabel{
+color:white;
+}
+QPushButton:hover{
+background-color:black;
+color:white;
+  border-style: outset;
+    border-width: 0px;
+    border-radius: 10px;
+}
+</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>110</y>
+     <width>63</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>60</y>
+     <width>241</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enter Account Number of the Payee:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="accountnum">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>100</y>
+     <width>231</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>150</y>
+     <width>161</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enter Amount:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="amount">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>190</y>
+     <width>231</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>350</y>
+     <width>176</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Confirm</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>350</y>
+     <width>176</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>270</y>
+     <width>231</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="maxLength">
+    <number>4</number>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>240</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enter PIN:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

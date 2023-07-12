@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>changepword</class>
+ <widget class="QDialog" name="changepword">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Change Password</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+font-family:cambria;
+}
+QWidget{
+background-color:#34568B;
+}
+QPushButton{
+  background-color: white;
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 10px;
+    color:black;
+    font: bold 14px;
+    min-width: 10em;
+    padding: 6px;
+}
+QLineEdit{
+  background-color: white;
+    border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+     color:black;
+    font: 14px;
+    min-width: 10em;
+    padding: 6px;
+}
+QDateEdit{
+  background-color: white;
+    border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+     color:black;
+    font: 14px;
+    min-width: 10em;
+    padding: 6px;
+}
+QRadioButton{
+ background-color: white;
+    border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+    color:black;
+    font: bold 14px;
+    min-width: 10em;
+    padding: 6px;
+
+}
+QLabel{
+color:white;
+}
+QPushButton:hover{
+background-color:black;
+color:white;
+  border-style: outset;
+    border-width: 0px;
+    border-radius: 10px;
+}
+</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>40</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enter Current Password:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>80</y>
+     <width>174</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>130</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enter New Password:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>160</y>
+     <width>181</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>260</y>
+     <width>176</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Confirm</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>260</y>
+     <width>176</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

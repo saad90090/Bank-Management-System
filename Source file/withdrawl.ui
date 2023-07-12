@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>withdrawl</class>
+ <widget class="QDialog" name="withdrawl">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Cash Withdrawl</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+font-family:cambria;
+}
+QWidget{
+background-color:#34568B;
+}
+QPushButton{
+  background-color: white;
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 10px;
+    color:black;
+    font: bold 14px;
+    min-width: 10em;
+    padding: 6px;
+}
+QLineEdit{
+  background-color: white;
+    border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+     color:black;
+    font: 14px;
+    min-width: 10em;
+    padding: 6px;
+}
+QDateEdit{
+  background-color: white;
+    border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+     color:black;
+    font: 14px;
+    min-width: 10em;
+    padding: 6px;
+}
+QRadioButton{
+ background-color: white;
+    border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+    color:black;
+    font: bold 14px;
+    min-width: 10em;
+    padding: 6px;
+
+}
+QLabel{
+color:white;
+}
+QPushButton:hover{
+background-color:black;
+color:white;
+  border-style: outset;
+    border-width: 0px;
+    border-radius: 10px;
+}
+</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>80</y>
+     <width>174</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>50</y>
+     <width>141</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enter Amount:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>250</y>
+     <width>176</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Confirm</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>250</y>
+     <width>176</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="pin">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>160</y>
+     <width>174</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="maxLength">
+    <number>4</number>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>130</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enter PIN:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
